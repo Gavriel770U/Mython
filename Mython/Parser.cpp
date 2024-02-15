@@ -178,4 +178,7 @@ Type* Parser::getVariableValue(std::string str)
 	return nullptr;
 }
 
-
+void Parser::clearMemory()
+{
+	_variables.clear();
+}

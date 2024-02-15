@@ -13,6 +13,7 @@ class Parser
 public:
     static Type* parseString(std::string str);
     static Type* getType(std::string str);
+    static void clearMemory();
 
 private:
     static bool isLegalVarName(std::string str);
